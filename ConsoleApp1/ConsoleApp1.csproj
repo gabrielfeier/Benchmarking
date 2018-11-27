@@ -51,6 +51,7 @@
     <Compile Include="BenchmarkConcurrentProgramming.cs" />
     <Compile Include="BenchmarkConvertEnum.cs" />
     <Compile Include="BenchmarkConvertEnumV2.cs" />
+    <Compile Include="BenchmarkConvertingObjects.cs" />
     <Compile Include="BenchmarkConvertStringToEnum.cs" />
     <Compile Include="BenchmarkDictionaryOrSwitchCase.cs" />
     <Compile Include="BenchmarkForAndWhere.cs" />

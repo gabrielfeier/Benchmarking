@@ -11,7 +11,7 @@ namespace ConsoleApp1
         {
             //new BenchmarkConcurrentProgramming().UsingMutex();
             
-            BenchmarkRunner.Run<BenchmarkConcurrentProgramming>();
+            BenchmarkRunner.Run<BenchmarkConvertingObjects>();
             Console.ReadLine();
         }
     }
