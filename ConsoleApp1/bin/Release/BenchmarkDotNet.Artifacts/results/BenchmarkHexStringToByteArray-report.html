@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkHexStringToByteArray</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.13, OS=Windows 10.0.17134
+Intel Core i5-6200U CPU 2.30GHz (Skylake), 1 CPU, 4 logical cores and 2 physical cores
+  [Host]     : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3190.0  [AttachedDebugger]
+  DefaultJob : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3190.0
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>               Method</th><th> Mean</th><th> Error</th><th>StdDev</th><th>Median</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>UsingLinq</td><td>2,775.2 us</td><td>122.916 us</td><td>362.42 us</td><td>2,773.9 us</td><td>316.4063</td><td>488.64 KB</td>
+</tr><tr><td>ConvertHexStringToByteArray</td><td>2,227.4 us</td><td>63.530 us</td><td>186.32 us</td><td>2,216.5 us</td><td>222.6563</td><td>348.02 KB</td>
+</tr><tr><td>StrToByteArray</td><td>51,972.4 us</td><td>1,498.834 us</td><td>4,276.26 us</td><td>51,333.4 us</td><td>13562.5000</td><td>20901.83 KB</td>
+</tr><tr><td>StringToByteArrayFastest</td><td>172.0 us</td><td>6.815 us</td><td>19.44 us</td><td>164.1 us</td><td>22.9492</td><td>35.51 KB</td>
+</tr></tbody></table>
+</body>
+</html>

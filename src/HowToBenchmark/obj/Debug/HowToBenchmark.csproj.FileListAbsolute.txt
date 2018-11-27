@@ -1,0 +1,47 @@
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\HowToBenchmark.exe.config
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\HowToBenchmark.exe
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\HowToBenchmark.pdb
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.Core.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.Toolchains.Roslyn.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.CodeAnalysis.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.DotNet.InternalAbstractions.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.Win32.Registry.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.AppContext.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Collections.Immutable.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Console.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Diagnostics.StackTrace.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.IO.Compression.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.IO.FileSystem.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.IO.FileSystem.Primitives.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Reflection.Metadata.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Security.Cryptography.Algorithms.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Security.Cryptography.Encoding.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Security.Cryptography.Primitives.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Text.Encoding.CodePages.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Threading.Thread.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.ValueTuple.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Xml.ReaderWriter.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Xml.XmlDocument.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Xml.XPath.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Xml.XPath.XDocument.dll
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.Core.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\BenchmarkDotNet.Toolchains.Roslyn.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.CodeAnalysis.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Collections.Immutable.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Reflection.Metadata.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\bin\Debug\System.Threading.Tasks.Extensions.xml
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\obj\Debug\HowToBenchmark.exe
+c:\users\cmachado\documents\visual studio 2017\Projects\HowToBenchmark\HowToBenchmark\obj\Debug\HowToBenchmark.pdb
+C:\Users\cmachado\Documents\Visual Studio 2017\Projects\HowToBenchmark\HowToBenchmark\obj\Debug\HowToBenchmark.csproj.CoreCompileInputs.cache
+C:\Users\cmachado\Documents\Visual Studio 2017\Projects\HowToBenchmark\HowToBenchmark\obj\Debug\HowToBenchmark.csproj.CopyComplete
+C:\Users\gsuyama\Desktop\HowToBenchmark\obj\Debug\HowToBenchmark.csproj.CoreCompileInputs.cache
+C:\Users\gsuyama\Desktop\HowToBenchmark\obj\Debug\HowToBenchmark.csprojAssemblyReference.cache
+C:\Users\gsuyama\Desktop\BenchMarking\src\HowToBenchmark\obj\Debug\HowToBenchmark.csproj.CoreCompileInputs.cache

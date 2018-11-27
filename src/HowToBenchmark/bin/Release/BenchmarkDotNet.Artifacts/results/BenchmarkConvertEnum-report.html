@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkConvertEnum</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.13, OS=Windows 10.0.17134
+Intel Core i5-4590 CPU 3.30GHz (Haswell), 1 CPU, 4 logical cores and 4 physical cores
+  [Host]     : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3131.0
+  DefaultJob : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3131.0
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                                     Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>IsDefined</td><td>113.2 us</td><td>0.4429 us</td><td>0.4143 us</td><td>7.5684</td><td>23.44 KB</td>
+</tr><tr><td>IsDefinedWithMethod</td><td>245.1 us</td><td>0.8223 us</td><td>0.7289 us</td><td>22.4609</td><td>70.32 KB</td>
+</tr><tr><td>TryParse</td><td>388.2 us</td><td>2.2942 us</td><td>2.0337 us</td><td>32.7148</td><td>101.56 KB</td>
+</tr><tr><td>TryParseExtensionMethodWithEnumToObjectWithTypeof</td><td>245.7 us</td><td>0.5044 us</td><td>0.4471 us</td><td>22.4609</td><td>70.32 KB</td>
+</tr><tr><td>TryParseExtensionMethodWithEnumToObject</td><td>257.1 us</td><td>1.8473 us</td><td>1.7280 us</td><td>30.2734</td><td>93.76 KB</td>
+</tr><tr><td>TryParseExtensionMethodWithEnumParse</td><td>531.2 us</td><td>3.8773 us</td><td>3.6268 us</td><td>40.0391</td><td>125.02 KB</td>
+</tr><tr><td>TryParseExtensionMethodWithTryParse</td><td>383.3 us</td><td>3.3295 us</td><td>3.1144 us</td><td>32.7148</td><td>101.56 KB</td>
+</tr><tr><td>TryParseExtensionMethodInt</td><td>236.3 us</td><td>0.9977 us</td><td>0.9333 us</td><td>22.7051</td><td>70.32 KB</td>
+</tr></tbody></table>
+</body>
+</html>

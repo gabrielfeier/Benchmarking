@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkConvertEnumV2</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.13, OS=Windows 10.0.17134
+Intel Core i5-4590 CPU 3.30GHz (Haswell), 1 CPU, 4 logical cores and 4 physical cores
+  [Host]     : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3132.0
+  DefaultJob : .NET Framework 4.7.1 (CLR 4.0.30319.42000), 64bit RyuJIT-v4.7.3132.0
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>            Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>IsDefinedWithIntTryParse</td><td>78.53 us</td><td>0.3671 us</td><td>0.3434 us</td><td>-</td><td>0 B</td>
+</tr><tr><td>TryParse</td><td>373.29 us</td><td>1.3537 us</td><td>1.1304 us</td><td>22.4609</td><td>72001 B</td>
+</tr><tr><td>GetValues</td><td>98.03 us</td><td>0.3587 us</td><td>0.3180 us</td><td>0.1221</td><td>633 B</td>
+</tr></tbody></table>
+</body>
+</html>
